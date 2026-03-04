@@ -431,32 +431,4 @@
         android:textColor="@android:color/white"
         tools:text="12:16" />
 
-    <LinearLayout
-        android:id="@+id/bottomLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@id/duration"
-        android:layout_toEndOf="@id/position">
-
-        <androidx.media3.ui.DefaultTimeBar
-            android:id="@+id/progressBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp" />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/duration"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
-        android:textColor="@android:color/white"
-        tools:text="1:12:16" />
-
 </RelativeLayout>
